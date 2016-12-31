@@ -12,8 +12,8 @@ timezone: Asia/Tokyo
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://histudy.github.io/
-root: /
+url: https://histudy.github.io/website
+root: /website
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,6 +71,6 @@ theme: histudy
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-#  message: [message]
-#  repo:
-#    github: <repository url>,[branch]
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  repo: git@github.com:histudy/website.git
+  branch: gh-pages
