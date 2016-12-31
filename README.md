@@ -29,13 +29,33 @@ Hexoをインストールします。
     $ hexo g
     $ hexo s
 
-ブラウザで http://localhost:4000 にアクセスすると内容の確認ができます。
+ブラウザで http://localhost:4000/website にアクセスすると内容の確認ができます。
 
+各種コマンド
+--------------------------------------------
+
+### Hexoサーバーを起動する
+
+```
+npm run start
+```
+ブラウザでhttp://localhost:4000/website にアクセスすると内容の確認ができます。
+
+### サイトを生成する
+
+```
+npm run generate
+```
+
+
+### デプロイ(Github Pageに反映する)
+
+```
+npm run deploy
+```
 
 検討課題
 --------------------------------------------
 
 - テンプレートのカスタマイズとか
     - 現在は[hueman](https://github.com/ppoffice/hexo-theme-hueman)を少し変更して使用中
-- 更新方法の検討とか
-
