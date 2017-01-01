@@ -2,7 +2,7 @@
 title: 1月の姫路IT系勉強会終わりました
 date: 2014-01-19 20:32:34
 categories:
-- news
+  - news
 ---
 
 1月の姫路IT系勉強会終わりました。

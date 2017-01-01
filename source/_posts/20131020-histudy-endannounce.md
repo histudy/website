@@ -2,7 +2,7 @@
 title: 10月の姫路IT系勉強会終わりました
 date: 2013-10-20 11:36:45
 categories:
-- news
+  - news
 ---
 
 すみません。
