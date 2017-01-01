@@ -15,4 +15,4 @@ cp -R ../public/* ./
 git add -A
 COMMIT_MESSAGE=$(date "+Site updated: %Y-%m-%d %H:%M:%S")
 git commit -m "$COMMIT_MESSAGE"
-git push -u https://${GH_TOKEN}@github.com/wate/website.git HEAD:gh-pages --force
+git push -u https://${GH_TOKEN}@github.com/histudy/website.git HEAD:gh-pages --force
