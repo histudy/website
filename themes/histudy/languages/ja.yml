@@ -6,7 +6,7 @@ index:
     category: 'Category'
     uncategorized: 'uncategorized'
     tag: 'タグ'
-		otsc: 'Open Tech Showcase'
+    otsc: 'Open Tech Showcase'
 nav:
     current_page:
         other: 'ページ %d '
