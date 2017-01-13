@@ -20,3 +20,6 @@ branches:
 env:
   global:
   - COMMIT_AUTHOR_EMAIL: "pc.poisoning@gmail.com"
+  - GH_ACOUNT: histudy
+  - GH_REPO: website
+  - GH_BRANCH: gh-pages
